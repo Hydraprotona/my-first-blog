@@ -26,6 +26,8 @@ SECRET_KEY = '01#xu+!4qbp**f5j1&6pvy9n+!3rd5+p6#m*a*p2f11u7uj&y4'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','hydraprotona.pythonanyware.com']
+LOGIN_REDIRECT_URL = '/'
+
 
 
 # Application definition
