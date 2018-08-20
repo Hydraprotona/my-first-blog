@@ -14,6 +14,7 @@
     <p class="top-menu"> Привет!))) {{ user.username }} <small>(<a href="{% url 'logout' %}" style="color:#FFFFFF">Выход</a>)</small></p>
     {% else %}
     <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
+    <a href="{% url 'register' %}" class="top-menu"><span class="glyphicon glyphicon-fire"></span></a>
     {% endif %}
       <h1><a href="/">Django Girl Hydra Blog</a></h1>
   </div>
